@@ -1,0 +1,384 @@
+{
+  "FullSize" : true,
+  "Name" : "RootGroup",
+  "$Children" : [
+    {
+      "BackgroundColorPersistent" : {
+        "Blue" : 9.4117647409439087E-001,
+        "Green" : 9.4117647409439087E-001,
+        "Red" : 9.4117647409439087E-001,
+        "$ClassName" : "TCastleColorPersistent"
+      },
+      "Camera" : {
+        "InitialDirectionPersistent" : {
+          "X" : -1.5986318886280060E-001,
+          "Y" : -1.5371847152709961E-001,
+          "Z" : -9.7509717941284180E-001,
+          "$ClassName" : "TCastleVector3Persistent"
+        },
+        "InitialPositionPersistent" : {
+          "X" : 7.5514152526855469E+001,
+          "Y" : 7.0510398864746094E+001,
+          "Z" : 4.8996600341796875E+002,
+          "$ClassName" : "TCastleVector3Persistent"
+        },
+        "InitialUpPersistent" : {
+          "X" : -1.9887346029281616E-001,
+          "Y" : 9.7256231307983398E-001,
+          "Z" : -1.2071435898542404E-001,
+          "$ClassName" : "TCastleVector3Persistent"
+        },
+        "Name" : "Camera",
+        "Orthographic" : {
+          "Name" : "Orthographic",
+          "Scale" : 1.3213150203227997E-001,
+          "Width" : 2.0000000000000000E+002,
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleOrthographic"
+        },
+        "Perspective" : {
+          "FieldOfView" : 0.0000000000000000E+000,
+          "Name" : "Perspective",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastlePerspective"
+        },
+        "ProjectionFar" : 1.0000000000000000E+003,
+        "ProjectionNear" : -1.0000000000000000E+003,
+        "ProjectionType" : "ptOrthographic",
+        "$Children" : [
+        ],
+        "$ClassName" : "TCastleCamera"
+      },
+      "FullSize" : true,
+      "Items" : {
+        "Name" : "Items",
+        "PhysicsProperties" : {
+          "Name" : "PhysicsProperties",
+          "$Children" : [
+          ],
+          "$ClassName" : "TPhysicsProperties"
+        },
+        "UseHeadlight" : "hlOn",
+        "$Children" : [
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Scene",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "Spatial" : [
+              "ssRendering",
+              "ssDynamicCollisions"
+            ],
+            "TranslationPersistent" : {
+              "X" : 1.9129936218261719E+001,
+              "Y" : 1.0546145439147949E+001,
+              "Z" : 3.2310287475585938E+001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "URL" : "castle-data:/enemy/soldier1.gltf",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Scene_",
+            "ProcessEvents" : true,
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "Spatial" : [
+              "ssRendering",
+              "ssDynamicCollisions"
+            ],
+            "TranslationPersistent" : {
+              "Z" : -1.0000000000000000E+001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "URL" : "castle-data:/player.glb",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Enemy1",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "RotationPersistent" : {
+              "Z" : 1.0000000000000000E+000,
+              "$ClassName" : "TCastleVector4Persistent"
+            },
+            "Spatial" : [
+              "ssRendering",
+              "ssDynamicCollisions"
+            ],
+            "TranslationPersistent" : {
+              "Y" : -4.7499999403953552E-001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "URL" : "castle-data:/plane.glb",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Enemy2",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "ScalePersistent" : {
+              "X" : 2.0000000000000000E+000,
+              "Z" : 2.0000000000000000E+000,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "Spatial" : [
+              "ssRendering",
+              "ssDynamicCollisions"
+            ],
+            "TranslationPersistent" : {
+              "Y" : -4.6999999880790710E-001,
+              "Z" : -1.0000000000000000E+001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "URL" : "castle-data:/plane.glb",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Enemy3",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "ScalePersistent" : {
+              "X" : 2.0000000000000000E+000,
+              "Z" : 2.0000000000000000E+000,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "Spatial" : [
+              "ssRendering",
+              "ssDynamicCollisions"
+            ],
+            "TranslationPersistent" : {
+              "Y" : -4.6999999880790710E-001,
+              "Z" : -2.0000000000000000E+001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "URL" : "castle-data:/plane.glb",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Enemy4",
+            "RenderOptions" : {
+              "Name" : "RenderOptions",
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "ScalePersistent" : {
+              "X" : 2.0000000000000000E+000,
+              "Z" : 2.0000000000000000E+000,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "Spatial" : [
+              "ssRendering",
+              "ssDynamicCollisions"
+            ],
+            "TranslationPersistent" : {
+              "Y" : -4.6999999880790710E-001,
+              "Z" : -3.0000000000000000E+001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "URL" : "castle-data:/plane.glb",
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          },
+          {
+            "AutoAnimationLoop" : false,
+            "ExposeTransforms" : [
+            ],
+            "Name" : "Plane",
+            "PrimitiveGeometry" : "pgBox",
+            "ProcessEvents" : true,
+            "RenderOptions" : {
+              "Lighting" : false,
+              "Name" : "RenderOptions",
+              "Textures" : false,
+              "$Children" : [
+              ],
+              "$ClassName" : "TCastleScene.TSceneRenderOptions"
+            },
+            "RotationPersistent" : {
+              "Z" : 1.0000000000000000E+000,
+              "$ClassName" : "TCastleVector4Persistent"
+            },
+            "ScalePersistent" : {
+              "X" : 1.0000000000000000E+002,
+              "Z" : 1.0000000000000000E+002,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "Spatial" : [
+              "ssRendering",
+              "ssDynamicCollisions"
+            ],
+            "TranslationPersistent" : {
+              "Y" : -3.5099999904632568E+000,
+              "Z" : -1.2999999523162842E-001,
+              "$ClassName" : "TCastleVector3Persistent"
+            },
+            "$Children" : [
+            ],
+            "$ClassName" : "TCastleScene"
+          }
+        ],
+        "$ClassName" : "TCastleRootTransform"
+      },
+      "Name" : "MainViewport",
+      "Navigation" : "ExamineNavigation1",
+      "$Children" : [
+        {
+          "Name" : "ExamineNavigation1",
+          "$Children" : [
+          ],
+          "$ClassName" : "TCastleExamineNavigation"
+        }
+      ],
+      "$ClassName" : "TCastleViewport"
+    },
+    {
+      "ColorPersistent" : {
+        "Green" : 1.0000000000000000E+000,
+        "Red" : 1.0000000000000000E+000,
+        "$ClassName" : "TCastleColorPersistent"
+      },
+      "FontSize" : 2.0000000000000000E+001,
+      "HorizontalAnchorDelta" : -2.0000000000000000E+001,
+      "HorizontalAnchorParent" : "hpRight",
+      "HorizontalAnchorSelf" : "hpRight",
+      "Name" : "LabelFps",
+      "Text" : [
+        "FPS: xxx"
+      ],
+      "VerticalAnchorDelta" : -2.0000000000000000E+001,
+      "VerticalAnchorParent" : "vpTop",
+      "VerticalAnchorSelf" : "vpTop",
+      "$Children" : [
+      ],
+      "$ClassName" : "TCastleLabel"
+    },
+    {
+      "ColorPersistent" : {
+        "Blue" : 1.0000000000000000E+000,
+        "Green" : 1.0000000000000000E+000,
+        "Red" : 1.0000000000000000E+000,
+        "$ClassName" : "TCastleColorPersistent"
+      },
+      "FontSize" : 2.0000000000000000E+001,
+      "HorizontalAnchorDelta" : 1.0000000000000000E+001,
+      "Name" : "LabelInfo",
+      "Text" : [
+        "Move with AWSD and mouse dragging.",
+        "Press Ctrl + M to toggle \"Mouse Look\" mode.",
+        "Press F5 to make a screenshot."
+      ],
+      "VerticalAnchorDelta" : -1.0000000000000000E+001,
+      "VerticalAnchorParent" : "vpTop",
+      "VerticalAnchorSelf" : "vpTop",
+      "$Children" : [
+      ],
+      "$ClassName" : "TCastleLabel"
+    },
+    {
+      "Caption" : "Start",
+      "CustomBackgroundDisabled" : {
+        "$ClassName" : "TCastleImagePersistent"
+      },
+      "CustomBackgroundFocused" : {
+        "$ClassName" : "TCastleImagePersistent"
+      },
+      "CustomBackgroundNormal" : {
+        "$ClassName" : "TCastleImagePersistent"
+      },
+      "CustomBackgroundPressed" : {
+        "$ClassName" : "TCastleImagePersistent"
+      },
+      "Image" : {
+        "$ClassName" : "TCastleImagePersistent"
+      },
+      "Name" : "Button1",
+      "$Children" : [
+      ],
+      "$ClassName" : "TCastleButton"
+    },
+    {
+      "Caption" : "Stop",
+      "CustomBackgroundDisabled" : {
+        "$ClassName" : "TCastleImagePersistent"
+      },
+      "CustomBackgroundFocused" : {
+        "$ClassName" : "TCastleImagePersistent"
+      },
+      "CustomBackgroundNormal" : {
+        "$ClassName" : "TCastleImagePersistent"
+      },
+      "CustomBackgroundPressed" : {
+        "$ClassName" : "TCastleImagePersistent"
+      },
+      "HorizontalAnchorParent" : "hpRight",
+      "HorizontalAnchorSelf" : "hpRight",
+      "Image" : {
+        "$ClassName" : "TCastleImagePersistent"
+      },
+      "Name" : "Button2",
+      "VerticalAnchorParent" : "vpMiddle",
+      "VerticalAnchorSelf" : "vpMiddle",
+      "$Children" : [
+      ],
+      "$ClassName" : "TCastleButton"
+    },
+    {
+      "CaptureAllInput" : false,
+      "HorizontalAnchorParent" : "hpMiddle",
+      "HorizontalAnchorSelf" : "hpMiddle",
+      "Name" : "FloatEdit1",
+      "VerticalAnchorParent" : "vpMiddle",
+      "VerticalAnchorSelf" : "vpMiddle",
+      "$Children" : [
+      ],
+      "$ClassName" : "TCastleFloatEdit"
+    }
+  ],
+  "$ClassName" : "TCastleUserInterface"
+}
